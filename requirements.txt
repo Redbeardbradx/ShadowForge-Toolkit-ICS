@@ -1,0 +1,6 @@
+# ShadowForge Toolkit - ICS/OT Edition
+# Core dependencies
+
+pymodbus>=3.6.0          # Modbus TCP/RTU support
+scapy>=2.5.0             # Network packet manipulation (future use)
+requests>=2.31.0         # Web interface checking in OT recon

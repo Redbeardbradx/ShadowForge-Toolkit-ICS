@@ -1,0 +1,21 @@
+{
+  "modbus": {
+    "default_port": 502,
+    "default_timeout": 1.5,
+    "max_workers": 32,
+    "max_hosts": 256
+  },
+  "ot_recon": {
+    "default_timeout": 1.5
+  },
+  "dnp3": {
+    "default_port": 20000,
+    "default_timeout": 2.0,
+    "max_workers": 32,
+    "max_hosts": 256
+  },
+  "general": {
+    "reports_dir": "reports",
+    "log_level": "INFO"
+  }
+}
