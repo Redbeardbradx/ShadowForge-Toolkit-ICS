@@ -2,6 +2,21 @@
 
 A modular Python toolkit for safe Industrial Control Systems (ICS) and Operational Technology (OT) security research and assessment.
 
+## Quick Start
+
+```bash
+git clone https://github.com/redbeardbradx/ShadowForge-Toolkit-ICS.git
+cd ShadowForge-Toolkit-ICS
+
+python -m venv venv
+.\venv\Scripts\Activate.ps1          # Windows
+# source venv/bin/activate          # Linux/macOS
+
+pip install -r requirements.txt
+
+python src/auto.py list
+```
+
 ## Purpose
 
 Built as a portfolio project to combine real-world operational experience with technical security skills. The toolkit focuses on:
@@ -90,13 +105,16 @@ ot_assessment.py         # Complete assessment script
 examples/                # Usage examples
 ```
 
+## Current Status
+
+This toolkit is actively being developed as a learning and portfolio project.  
+Core features (Modbus, DNP3, OT Recon, Assessment tools) are functional.
+
 ## Author
 
-**Brad Malmgren (Redbeard)**  
-Heavy Equipment Operator transitioning into ICS/OT Security  
-Utah, USA
-
-Building this toolkit to combine real operational experience with technical security skills for roles in critical infrastructure protection.
+**Brad Malmgren**  
+Heavy Equipment Operator | ICS/OT Security Enthusiast  
+[LinkedIn](https://www.linkedin.com/in/brad-lee-malmgren-55bb8b17)
 
 ## License
 
